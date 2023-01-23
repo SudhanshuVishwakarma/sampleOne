@@ -9,10 +9,23 @@
 # print(mini)
 
 
-first_name=input('what is you name:')
-one = list(first_name)
-print(one)
+first_name = input("what is you name:")
+last_name = input("last name :")
 
-length = (len(first_name))
-if length >= 10:print('great')
-else :print("grow yourself")
+fname = len(first_name)
+print(fname)
+lname = len(last_name)
+print(lname)
+
+if fname == lname:
+    print("lucky")
+else:
+    print("do something ")
+
+
+# one = list(first_name)
+# print(one)
+
+# length = (len(first_name))
+# if length >= 10:print('great')
+# else :print("grow yourself")
