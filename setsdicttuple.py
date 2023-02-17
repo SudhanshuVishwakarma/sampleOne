@@ -49,21 +49,32 @@
 #     String.index("codeing"),
 #     String.replace("codeing", "python"),
 # )
-def acro(stng):
-   
-    output = stng[0]
-         
-    for i in range(1, len(stng)):
-        if stng[i-1] == ' ':
-                
-            output += stng[i]
-   
-    output = output.upper()
-    return output
- 
- 
-inpt1 = "Codeing For All"
-# inpt1 = "Riya Kumari"
- 
-print(acro(inpt1))
- 
+# def acro(stng):
+
+#     output = stng[0]
+
+#     for i in range(1, len(stng)):
+#         if stng[i-1] == ' ':
+
+#             output += stng[i]
+
+#     output = output.upper()
+#     return output
+
+
+# inpt1 = "Codeing For All"
+
+
+# print(acro(inpt1))
+
+
+def sq(n):
+
+    for x in range(1, n):
+        print(x, "\t", end="")
+        for i in range(0, 4):
+            print(x**i, "\t", end="")
+        print("\n")
+
+
+sq(5)
