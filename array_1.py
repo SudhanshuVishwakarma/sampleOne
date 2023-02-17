@@ -2,7 +2,7 @@ from array import *
 
 val = array("i", [2, 3, 4, 5, 6])
 
-print(val)
+print(val.buffer_info())  # - (2105895468048(add), 5(size))
 
 
 # def array(n):
