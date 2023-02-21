@@ -1,8 +1,32 @@
 from array import *
 
-val = array("i", [2, 3, 4, 5, 6])
+# val = array("i", [2, 3, 4, 5, 6])
 
-print(val.buffer_info())  # - (2105895468048(add), 5(size))
+# # print(val.buffer_info())  # - (2105895468048(add), 5(size))
+# val.reverse()
+# print(val)
+
+# for i in range(len(val)):
+#     print(val[i])
+
+# for e in val:
+#     print(e)
+
+
+# val = array("i", [2,3,4,5])
+
+# newArray = array(val.typecode,(a*a for a in val))
+
+# # for e in newArray:
+# #     print(e)
+
+# i=0
+
+# while i<len(newArray):
+#     print(newArray[i])
+#     i+=1
+
+arr = array()
 
 
 # def array(n):
