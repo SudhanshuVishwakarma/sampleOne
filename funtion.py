@@ -138,19 +138,55 @@
 # evens_and_odds(101)
 
 
-def Fibonacci(n):
-    if n <= 0:
-        print("Incorrect input")
-    # First Fibonacci number is 0
-    elif n == 1:
-        return 0
-    # Second Fibonacci number is 1
-    elif n == 2:
-        return 1
-    else:
-        return Fibonacci(n - 1) + Fibonacci(n - 2)
+# def Fibonacci(n):
+#     if n <= 0:
+#         print("Incorrect input")
+#     # First Fibonacci number is 0
+#     elif n == 1:
+#         return 0
+#     # Second Fibonacci number is 1
+#     elif n == 2:
+#         return 1
+#     else:
+#         return Fibonacci(n - 1) + Fibonacci(n - 2)
 
 
-# Driver Program
+# # Driver Program
 
-print(Fibonacci(7))
+# print(Fibonacci(7))
+
+
+# def fun(a, b, c=1, d=5):
+#     return a + b + c + d
+
+
+# value = fun(1,2)
+# print(value)
+
+
+# n = int(input())
+
+
+# def printDivisors(n):
+#     i = 1
+#     for i in range(1, int(n / 2) + 1):  # 10 - 1,2,5,10
+#         if n % i == 0:
+#             print(i)
+
+
+# printDivisors(n)
+
+# n = 100
+# flag = 0
+# for i in range(1, int(n / 2), 1):
+#     if n % 1 == 0:
+#         flag += 1
+# print(flag)
+
+# list1 = [i for i in "myString" if i not in "aeiou"]
+# for i in list1:
+#     print(i)
+
+s = "abcd"
+b = s + "2"
+print(s)
