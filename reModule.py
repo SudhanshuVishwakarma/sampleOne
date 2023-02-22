@@ -20,22 +20,32 @@ import re
 # print(flight_details)
 # print(re.sub(r"Flight", r"udan khatola", flight_details))
 
-ip = "the sun rises in the east"
-
-def encrypt_sentence(msg):
-    x = msg.split(" ")
-    for i in range(0, len(x)):
-        if i % 2 == 0:
-            x[i] = x[i][::-1]
-        else:
-            a = ""
-    for j in x[i]:
-        if j == "a" or j == "e" or j == "i" or j == "o" or j == "u":
-            x[i] = x[i].replace(j, "")
-            a += j
-            x[i] += a
-
-    print(" ".join(x))
+# ip = "Sudhanshu vishwakarma"
+# print(len(ip))
 
 
-encrypt_sentence(ip)
+# def encrypt_sentence(msg):
+#     x = msg.split(" ")
+#     print(x)
+#     for i in range(0, len(x)):
+#         if i % 2 == 0:
+#             x[i] = x[i][::-1]
+#         else:
+#             a = ""
+#             for j in x[i]:
+#                 if j == "a" or j == "e" or j == "i" or j == "o" or j == "u":
+#                     x[i] = x[i].replace(j, "")
+#                     a += j
+#             x[i] += a
+
+#     print(" ".join(x))
+
+
+# encrypt_sentence(ip)
+# import math
+
+# num_list = [100.5, 30.465, -1.22, 20.15]
+# num_list.insert(1, -100.5)
+# num_list.pop(0)
+# num_list.sort()
+# print(math.ceil(math.fabs(num_list[0])))

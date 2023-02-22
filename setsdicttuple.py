@@ -68,13 +68,13 @@
 # print(acro(inpt1))
 
 
-def sq(n):
+# def sq(n):
 
-    for x in range(1, n):
-        print(x, "\t", end="")
-        for i in range(0, 4):
-            print(x**i, "\t", end="")
-        print("\n")
+#     for x in range(1, n):
+#         print(x, "\t", end="")
+#         for i in range(0, 4):
+#             print(x**i, "\t", end="")
+#         print("\n")
 
 
-sq(5)
+# sq(5)

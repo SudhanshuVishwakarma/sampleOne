@@ -173,7 +173,6 @@
 #         if n % i == 0:
 #             print(i)
 
-
 # printDivisors(n)
 
 # n = 100
@@ -187,6 +186,21 @@
 # for i in list1:
 #     print(i)
 
-s = "abcd"
-b = s + "2"
-print(s)
+# s = "abcd"
+# b = s + "2"
+# print(s)
+
+
+# def val(num1):
+#     list1 = []
+#     while num1 != 0:
+#         if num1 % 2 == 0:
+#             list1.append(num1)
+#         else:
+#             break
+#         num1 -= 2
+#     print(list1)
+# val(10)
+
+# set={1,2,3,1,2,4,5,4,6,7,9,10}
+#     for index in set:
