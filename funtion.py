@@ -200,7 +200,10 @@
 #             break
 #         num1 -= 2
 #     print(list1)
+
+
 # val(10)
 
-# set={1,2,3,1,2,4,5,4,6,7,9,10}
-#     for index in set:
+# set = {1, 2, 3, 1, 2, 4, 5, 4, 6, 7, 9, 10}
+# for index in range(len(set)):
+#     print(index, end="")

@@ -23,7 +23,9 @@
 
 # fhw = open("data.txt", "w")
 # fhw.write("written some thing")
-# print(fhw.tell)
-# print("closed", fhw.closed)
-# fhw.close()
-# print("after:", fhw.closed)
+# print(fhw.tell())
+# # print("closed", fhw.closed)
+# # fhw.close()
+# # print("after:", fhw.closed)
+
+# # print(len(("written some thing")))
