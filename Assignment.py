@@ -432,8 +432,4 @@ import math
 
 
 # rec2(6)
-# rec1(6)
-
-
-
-
+# rec1(6
