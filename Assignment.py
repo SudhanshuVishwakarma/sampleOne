@@ -433,3 +433,67 @@ import math
 
 # rec2(6)
 # rec1(6
+
+
+# arr = [12, 23, 45, 6, 5, 70]
+
+# for i in range(20):
+#     n = arr.append(0)
+
+# print(arr)
+
+# Program to reverse a string
+
+# gfg = "geeksforgeeks"
+
+# # Reverse the string using reversed and join function
+# gfg = "".join(reversed(gfg))
+
+# print(gfg)
+
+# String alignment
+
+# val = "i am a good boy"
+# h = "".join(reversed(val))
+
+# print(h)
+
+# s = "the sky is blue"
+# str = s.split()
+# print(str)
+# rev = " ".join(reversed(str))
+# print(rev)
+
+# lists = s.split(" ")[::-1]
+#     newlists = [x for x in lists if x != '']
+#         return " ".join(newlists)
+
+# Python3 implementation of the approach
+
+MAX = 26
+
+
+# def compressString(s, n):
+
+#     freq = [0] * MAX
+
+#     for i in range(n):
+#         freq[ord(s[i]) - ord("a")] += 1
+
+#     for i in range(MAX):
+
+#         if freq[i] == 0:
+#             continue
+
+#         print((chr)(i + ord("a")), freq[i], end=" ")
+
+
+# if __name__ == "__main__":
+
+#     s = "abc"
+#     n = len(s)
+
+#     compressString(s, n)
+
+f = int(1000 / 11)
+print(f)
