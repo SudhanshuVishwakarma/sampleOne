@@ -465,12 +465,12 @@ import math
 # print(rev)
 
 # lists = s.split(" ")[::-1]
-#     newlists = [x for x in lists if x != '']
-#         return " ".join(newlists)
+# newlists = [x for x in lists if x != ""]
+# temp = " ".join(newlists)
 
 # Python3 implementation of the approach
 
-MAX = 26
+# MAX = 26
 
 
 # def compressString(s, n):
@@ -487,13 +487,206 @@ MAX = 26
 
 #         print((chr)(i + ord("a")), freq[i], end=" ")
 
+#     Max = freq[0]
+#     a = 0
+#     for i in range(MAX):
+#         if Max < freq[i]:
+#             a = i
+#             Max = freq[i]
+#     print("\nmaximum occ :", chr(a + ord("a")))
+
 
 # if __name__ == "__main__":
 
-#     s = "abc"
+#     s = "aabc"
 #     n = len(s)
 
 #     compressString(s, n)
 
-f = int(1000 / 11)
-print(f)
+
+# def pattern(n):
+#     i = 1
+#     count = 1
+#     while i <= n:
+#         j = 1
+#         while j <= n:
+#             print(count, end=" ")
+#             count += 1
+#             j += 1
+
+#         print(end="\n")
+#         i += 1
+
+# pattern(4)
+
+
+# def pattern(n):
+
+#     for i in range(0, n):
+#         for j in range(i):
+#             print("*")
+#             j += 1
+#         print(end="")
+
+
+# pattern(4)
+
+
+# def parttern(n):
+#     i = 1
+#     while i <= n:
+#         j = 1
+#         while j <= n:
+#             print(i)
+#             j = +1
+#         print(end="")
+#         i += 1
+
+
+# parttern(4)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         val = row
+#         while col <= row:
+#             print(row + col - 1, end=" ")
+#             val += 1
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(5)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         while col <= row:
+#             print(row - col + 1, end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(3)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         while col <= n:
+#             print(chr(ord("A") + row - 1), end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+# pattern(5)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         while col <= row:
+#             print(chr(ord("A") + row - 1), end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(3)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         while col <= row:
+#             print(chr(ord("A") + row + col - 1), end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(3)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         while col <= row:
+#             print(chr(ord("A") + row + col - 1), end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(3)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         col = 1
+#         start = chr(ord("A") + n - row)
+#         while col <= row:
+#             print(start, end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(3)
+
+
+# def pattern(n):
+#     row = 1
+#     while row <= n:
+#         space = n - row
+#         while space:
+#             print(end=" ")
+#             space = space - 1
+#         col = 1
+#         while col <= row:
+#             print("*", end=" ")
+#             col += 1
+#         print(end="\n")
+#         row += 1
+
+
+# pattern(5)
+
+
+# def tri(n):
+#     row = 1
+#     while row <= n:
+
+#         space = n - row
+#         while space:
+#             print(" ", end="")
+#             space = space - 1
+
+#         col = 1
+#         while col <= row:
+#             print(col, end="")
+#             col = col + 1
+
+#         start = row - 1
+#         while start:
+#             print(start, end="")
+#             start = start - 1
+
+#         print("\n")
+#         row += 1
+
+
+# tri(5)
+
+
