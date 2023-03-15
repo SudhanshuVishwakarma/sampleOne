@@ -688,5 +688,20 @@ import math
 
 
 # tri(5)
+# import re
 
 
+# def char():
+#     x = input("Enter you char:")
+#     # z = chr(ord(x))
+#     if x >= "a" and x <= "z":
+#         print("small")
+#     elif x >= "A" and x <= "Z":
+#         print("capital")
+#     elif not (x.isalpha() or x.isdigit() or x == " "):
+#         print("naya hai khuch")
+#     elif int(x) >= 0 and int(x) <= 9:
+#         print("number")
+
+
+# char()
