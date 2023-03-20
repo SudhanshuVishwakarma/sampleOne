@@ -224,6 +224,14 @@ class DoublyLL:
                     self.head = newNode
                 n.pref = newNode
 
+    def delete_beg(self):
+        if self.head is None:
+            print("DDl is empty")
+        else
+
+    def delete_end(self):
+        if self.head is None:
+             
 
 dd = DoublyLL()
 
