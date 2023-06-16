@@ -63,7 +63,7 @@ class Course:
         return value / len(self.students)
 
 
-s1 = student("Muse", 19, 35)
+s1 = student("Geko", 19, 35)
 s2 = student("Sage", 12, 34)
 s3 = student("reyna", 23, 56)
 
