@@ -1,10 +1,11 @@
 class pet:
-    def __init__(self, name, age) -> None:
+    def __init__(self, name, age, breed) -> None:
         self.name = name
         self.age = age
+        self.breed = breed
 
     def show(self):
-        print(f"I am {self.name}and I am {self.age} yr old")
+        print(f"I am {self.name}and I am {self.age} yr old of {self.breed}")
 
     def speak(self):
         print("IDK")
@@ -24,12 +25,12 @@ class fish(pet):
     pass
 
 
-p = pet("Tim", 12)
+p = pet("Tim", 12, "labra")
 p.show()
-c = cat("Bill", 34)
+c = cat("Bill", 34, "labra")
 c.show()
-d = Dog("SAGE reyna", 23)
+d = Dog("SAGE reyna", 23, "labra")
 d.show()
 d.speak()
-f = fish("lol", 33)
+f = fish("lol", 33, "labra")
 f.speak()
