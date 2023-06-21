@@ -25,7 +25,7 @@ class fish(pet):
     pass
 
 
-p = pet("Tim", 12, "labra")
+p = pet("Harbor", 12, "labra")
 p.show()
 c = cat("Bill", 34, "labra")
 c.show()
