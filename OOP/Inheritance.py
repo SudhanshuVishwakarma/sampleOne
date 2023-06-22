@@ -27,7 +27,7 @@ class fish(pet):
 
 p = pet("Harbor", 12, "labra")
 p.show()
-c = cat("Bill", 34, "labra")
+c = cat("Jill biden", 55, "labra")
 c.show()
 d = Dog("SAGE reyna", 23, "labra")
 d.show()
